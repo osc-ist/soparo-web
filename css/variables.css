@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #e5bd3c; /* Soparo sarı rengi */
+    --secondary-color: #4d5154; /* Soparo gri rengi */
+    --light-color: #f8f9fa;
+    --dark-color: #333333;
+    --white-color: #ffffff;
+    --gray-color: #f8f9fa;
+    --dark-gray: #333333;
+    --light-blue: #003C71;
+    --light-blue-bg: rgba(0, 60, 113, 0.85);
+    
+    /* Font sizes */
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    /* Border radius */
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --border-radius-lg: 1rem;
+    
+    /* Transitions */
+    --transition-base: all 0.3s ease;
+    --transition-slow: all 0.5s ease;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.1);
+} 

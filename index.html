@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="images/logo.png" as="image">
+    <link rel="preload" href="images/hero-background.png" as="image">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" as="style">
+    
+    <!-- Preconnect to required origins -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    
+    <!-- SEO Meta Etiketleri -->
+    <title>SOPARO - Güneş Paneli Temizleme Robotu | %30'a Kadar Verim Artışı</title>
+    <meta name="description" content="SOPARO güneş paneli temizleme robotları ile enerji üretiminizi %30'a kadar artırın. Otomatik, su tasarruflu ve çevre dostu çözümler. Hemen teklif alın!">
+    <meta name="keywords" content="güneş paneli temizleme robotu, solar panel temizleme, soparo, güneş enerjisi, panel temizliği, otomatik temizleme robotu">
+    <meta name="author" content="SOPARO">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.soparo.com.tr/">
+    <meta property="og:title" content="SOPARO - Güneş Paneli Temizleme Robotu">
+    <meta property="og:description" content="Güneş panellerinizin verimliliğini %30'a kadar artırın. Otomatik, su tasarruflu ve çevre dostu çözümler.">
+    <meta property="og:image" content="https://www.soparo.com.tr/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.soparo.com.tr/">
+    <meta property="twitter:title" content="SOPARO - Güneş Paneli Temizleme Robotu">
+    <meta property="twitter:description" content="Güneş panellerinizin verimliliğini %30'a kadar artırın. Otomatik, su tasarruflu ve çevre dostu çözümler.">
+    <meta property="twitter:image" content="https://www.soparo.com.tr/images/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.soparo.com.tr/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SOPARO",
+      "url": "https://www.soparo.com.tr",
+      "logo": "https://www.soparo.com.tr/images/logo.png",
+      "description": "Güneş paneli temizleme robotları üreten lider firma",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mimar Sinan Mah. Mehtap Cad. No:48/1-2",
+        "addressLocality": "Ataşehir",
+        "addressRegion": "İstanbul",
+        "postalCode": "34782",
+        "addressCountry": "TR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+90-216-660-06-86",
+        "contactType": "customer service",
+        "email": "info@soparo.com.tr"
+      }
+    }
+    </script>
+    
+    <!-- Critical CSS -->
+    <style>
+        :root {
+            --light-blue: #003C71;
+            --light-blue-bg: rgba(0, 60, 113, 0.85);
+        }
+        
+        body {
+            background-color: var(--light-blue-bg) !important;
+        }
+        
+        #anasayfa, #hakkimizda, #urunler, #faydalar {
+            background-color: #ffffff !important;
+        }
+        
+        .navbar {
+            background-color: var(--light-blue-bg) !important;
+        }
+        
+        #ozellikler, #referanslar, #contact-form, #iletisim {
+            background-color: var(--light-blue-bg) !important;
+        }
+        
+        .navbar .nav-link, 
+        .navbar .navbar-brand, 
+        #ozellikler h2, 
+        #ozellikler p.lead, 
+        #referanslar h2, 
+        #referanslar p.lead, 
+        #contact-form h2, 
+        #contact-form p.lead {
+            color: #ffffff !important;
+        }
+        
+        #ozellikler .card, 
+        #referanslar .card, 
+        #contact-form .card {
+            background-color: #ffffff !important;
+        }
+        
+        .navbar .nav-link:hover {
+            color: #f8f9fa !important;
+            opacity: 0.8;
+        }
+        
+        .navbar .nav-link.active {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <!-- Lazy loading için data-src kullanımı -->
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+         data-src="images/logo.png" 
+         alt="Soparo Logo" 
+         height="110" 
+         class="logo-img lazy">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Soparo Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#urunler">Ürünler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 col-md-8 mx-auto mx-lg-0 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold mb-3" data-i18n="hero_baslik">Güneş Panellerinizin Verimliliğini Artırın</h1>
+                    
+                    <!-- Slogan ekleniyor -->
+                    <h3 class="fst-italic fw-bold text-primary mb-3" data-i18n="hero_slogan">"Havanız nasıl olursa olsun, panelleriniz temiz olsun!"</h3>
+                    
+                    <p class="lead mb-4" data-i18n="hero_aciklama">SOPARO güneş paneli temizleme robotları ile enerji üretiminizi %30'a kadar artırın, bakım maliyetlerinizi düşürün.</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#urunler" class="btn btn-primary btn-lg" data-i18n="urunlerimizi_kesfedin">Ürünlerimizi Keşfedin</a>
+                        <a href="#iletisim" class="btn btn-outline-primary btn-lg" data-i18n="iletisime_gecin">İletişime Geçin</a>
+                        <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#teklifModal" data-i18n="teklif_al">Teklif Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Section -->
+    <section id="hakkimizda" class="py-5" style="background-image: url('images/urunresim.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="container py-5" style="position: relative; z-index: 1;">
+            <h2 class="section-title text-center text-warning mb-5">Hakkımızda</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead fw-bold fst-italic text-white" style="font-size: 1.25rem; line-height: 1.8;">
+                        SOPARO, güneş enerjisi sektöründe devrim niteliğinde bir teknoloji şirketi olarak, güneş panellerinin verimliliğini maksimum seviyeye çıkaran yenilikçi çözümler sunuyor. Otomatik panel temizleme robotlarımız, enerji üretiminde %30'a varan verim artışı sağlayarak, sürdürülebilir enerji üretiminde yeni bir çağ başlatıyor.
+                    </p>
+                    <p class="lead fw-bold fst-italic text-white" style="font-size: 1.25rem; line-height: 1.8;">
+                        2023 yılında, sektörün önde gelen uzmanları tarafından kurulan SOPARO, her türlü iklim koşulunda ve panel tipinde mükemmel performans gösteren akıllı temizleme sistemleri geliştiriyor. Özel tasarımımız ve gelişmiş teknolojimiz sayesinde, güneş panelleriniz her zaman optimum verimlilikte çalışıyor. Geleceğin temizleme teknolojisini bugünden yaşatıyoruz.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ürünlerimiz Section -->
+    <section id="urunler" class="py-5" style="background-image: url('images/urunresim.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="container position-relative">
+            <h2 class="section-title text-warning">Ürünlerimiz</h2>
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead text-white">SOPARO'nun yenilikçi güneş paneli temizleme robot serileri</p>
+                </div>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="position-relative mb-4">
+                        <img src="images/hero-background.png" class="img-fluid rounded shadow" alt="SOPARO RCS 120 Güneş Paneli Temizleme Robotu">
+                    </div>
+
+                    <!-- Video Bölümü -->
+                    <div class="video-container mb-4">
+                        <h4 class="mb-3 text-warning">Ürün Tanıtım Videosu</h4>
+                        <div class="ratio ratio-16x9 shadow rounded">
+                            <iframe src="https://www.youtube.com/embed/4bLjJxSff0g" title="SOPARO RCS 120 Tanıtım Videosu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <p class="text-warning mt-2"><small>* Video kontrolleri için tıklayın</small></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="fs-1 fw-bold mb-4 text-warning">SOPARO RCS 120</h3>
+                    <p class="lead mb-4 text-white">En zorlu koşullarda bile güneş panellerinizi mükemmel temizleme performansı sunan, uzaktan kumanda ile yönetilebilen yenilikçi robot teknolojisi.</p>
+                    
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="icon-box me-3 flex-shrink-0">
+                                    <i class="fas fa-ruler text-warning"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-warning">Temizleme Genişliği</h5>
+                                    <p class="text-white">120 cm etkili temizleme genişliği</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="icon-box me-3 flex-shrink-0">
+                                    <i class="fas fa-tachometer-alt text-warning"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-warning">Çalışma Hızı</h5>
+                                    <p class="text-white"><strong>Max Çalışma Hızı:</strong> 28 m/dk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="icon-box me-3 flex-shrink-0">
+                                    <i class="fas fa-battery-full text-warning"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-warning">Batarya Ömrü</h5>
+                                    <p class="text-white">Çift batarya ile 8 saat kesintisiz çalışma</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="icon-box me-3 flex-shrink-0">
+                                    <i class="fas fa-mountain text-warning"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-warning">Eğim Toleransı</h5>
+                                    <p class="text-white"><strong>25° eğime kadar</strong> güvenli çalışabilme</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="icon-box me-3 flex-shrink-0">
+                                    <i class="fas fa-wifi text-warning"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-warning">Uzaktan Kumanda</h5>
+                                    <p class="text-white">Gelişmiş LCD ekranlı kumanda ile anlık makina çalışma eğimi, robot ve kumanda batarya seviyeleri ile çalışma saatini görüntüleme ve hassas yönetim</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#iletisim" class="btn btn-warning btn-lg">Detaylı Bilgi İsteyin</a>
+                        <a href="katalog/soparo-rcs120-teknik.pdf" class="btn btn-outline-warning btn-lg" download><i class="fas fa-file-pdf me-2"></i>Teknik Özellikler</a>
+                        <a href="katalog/soparo-rcs120-katalog.pdf" class="btn btn-outline-warning btn-lg" download><i class="fas fa-file-pdf me-2"></i>Katalog İndir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="faydalar" class="py-5" style="background-image: url('images/urunresim.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="container py-5" style="position: relative; z-index: 1;">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/soparo11.jpg" alt="Soparo Avantajları" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4 text-warning">Güneş Paneli Temizliğinin Faydaları</h2>
+                    <p class="lead mb-4 text-white">Düzenli ve profesyonel temizlik, güneş panellerinizin performansını ve ömrünü uzatır.</p>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="icon-box me-3">
+                            <i class="fas fa-bolt text-warning"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-warning">Enerji Üretimini Artırır</h5>
+                            <p class="text-white">Kirli paneller %25-30 oranında daha az enerji üretir. Düzenli temizlik ile verimliliği maksimuma çıkarın.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="icon-box me-3">
+                            <i class="fas fa-coins text-warning"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-warning">Yatırım Getirisini Hızlandırır</h5>
+                            <p class="text-white">Daha fazla enerji üretimi, yatırımınızın kendini daha hızlı amorti etmesini sağlar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="icon-box me-3">
+                            <i class="fas fa-shield-alt text-warning"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-warning">Panel Ömrünü Uzatır</h5>
+                            <p class="text-white">Birikmiş kirler panellere zarar verebilir. Düzenli temizlik ile ekipmanınızı koruyun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="referanslarimiz" class="py-5" style="background-image: url('images/urunresim.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title text-warning">Referanslarımız</h2>
+                    <p class="lead text-white">Güvenilir iş ortaklarımız</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="images/porland-logo.jpg" alt="Porland Logosu" class="customer-logo">
+                                <h5><a href="https://www.porland.com" target="_blank" class="text-decoration-none">Porland Porselen</a></h5>
+                                <p class="text-muted">4.5 MW Güneş Enerjisi Santrali</p>
+                                <p class="mb-0">"SOPARO robotları ile güneş panel sistemimizin verimini %25 artırdık ve bakım maliyetlerinden önemli ölçüde tasarruf sağladık."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="images/ayzen-logo.jpeg" alt="Ayzen Mühendislik Logosu" class="customer-logo">
+                                <h5><a href="https://www.linkedin.com/in/ayzenm%C3%BChendislik/?originalSubdomain=tr" target="_blank" class="text-decoration-none">Ayzen Mühendislik</a></h5>
+                                <p class="text-muted">15 MW Büyük Ölçekli GES</p>
+                                <p class="mb-0">"Geniş ölçekli santralimizde SOPARO robotları ile hem temizlik süremizi kısalttık hem de su tüketimimizi azalttık."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="images/say-logo.jpg" alt="SAY Elektromekanik Logosu" class="customer-logo" style="width: 300px; height: auto; margin-bottom: 20px;">
+                                <h5><a href="https://www.sayelektromekanik.com" target="_blank" class="text-decoration-none">SAY Elektromekanik</a></h5>
+                                <p class="text-muted">6.2 MW Endüstriyel GES</p>
+                                <p class="mb-0">"SOPARO temizleme robotları sayesinde insan gücüne olan ihtiyacımızı %80 azalttık ve panel ömrümüzü uzattık."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Section -->
+    <section id="iletisim" class="py-5" style="background-image: url('images/urunresim.jpg'); background-size: cover; background-position: center; background-attachment: fixed; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+        <div class="container py-5" style="position: relative; z-index: 1;">
+            <h2 class="section-title text-center text-warning mb-5">İletişim</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <div class="info-item mb-4">
+                            <i class="fas fa-map-marker-alt text-warning me-2"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Mimar+Sinan+Mah.+Mehtap+Cad.+No:48+D:1-2+Ataşehir/İstanbul" target="_blank" class="text-white text-decoration-none">
+                                <span>Adres: Mimar Sinan Mah. Mehtap Cad. No:48 D:1-2 Ataşehir/İstanbul</span>
+                            </a>
+                        </div>
+                        <div class="info-item mb-4">
+                            <i class="fas fa-phone text-warning me-2"></i>
+                            <span class="text-white">Telefon: 0216 660 06 86</span>
+                        </div>
+                        <div class="info-item mb-4">
+                            <i class="fas fa-envelope text-warning me-2"></i>
+                            <span class="text-white">E-posta: info@soparo.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Adınız" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Mesajınız" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <img src="images/logo-white.png" alt="Soparo Logo" height="90" class="logo-img-footer mb-4">
+                    <p>Güneş panellerinizin verimliliğini artırmak için yenilikçi temizleme çözümleri.</p>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h5>Hızlı Linkler</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#anasayfa" class="text-white text-decoration-none">Ana Sayfa</a></li>
+                        <li class="mb-2"><a href="#hakkimizda" class="text-white text-decoration-none">Hakkımızda</a></li>
+                        <li class="mb-2"><a href="#urunler" class="text-white text-decoration-none">Ürünlerimiz</a></li>
+                        <li class="mb-2"><a href="#referanslar" class="text-white text-decoration-none">Referanslar</a></li>
+                        <li class="mb-2"><a href="#iletisim" class="text-white text-decoration-none">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <h5>İletişim</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Mimar Sinan Mah. Mehtap Cad. No:48/1-2 ATAŞEHİR / İSTANBUL</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +90 216 660 06 86</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@soparo.com.tr</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Sosyal Medya</h5>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Soparo. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Gizlilik Politikası</a>
+                    <a href="#" class="text-white text-decoration-none">Kullanım Şartları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/902166600686" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/lang.js" defer></script>
+    
+    <!-- Lazy loading script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+            
+            if ("IntersectionObserver" in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.classList.remove("lazy");
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

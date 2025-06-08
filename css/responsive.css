@@ -1,0 +1,209 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-section {
+        min-height: 70vh;
+    }
+    
+    .container {
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 120px 0 80px;
+        min-height: 60vh;
+    }
+
+    .hero-section::before {
+        background: linear-gradient(90deg, 
+                    rgba(0,0,0,0.9) 0%, 
+                    rgba(0,0,0,0.7) 50%, 
+                    rgba(0,0,0,0.5) 100%);
+    }
+
+    .navbar {
+        padding: var(--spacing-xs) 0;
+    }
+
+    .navbar-collapse {
+        background-color: var(--light-blue-bg);
+        padding: var(--spacing-md);
+        border-radius: var(--border-radius-md);
+        margin-top: var(--spacing-sm);
+    }
+
+    .navbar .nav-link {
+        padding: var(--spacing-sm) 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .navbar .nav-link:last-child {
+        border-bottom: none;
+    }
+
+    .logo-img {
+        max-width: 150px;
+    }
+
+    .logo-img-footer {
+        max-width: 120px;
+    }
+
+    .card {
+        margin-bottom: var(--spacing-lg);
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h1.display-4 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section {
+        padding: 100px 0 60px;
+        min-height: 50vh;
+        background-attachment: scroll; /* Mobilde fixed background performans sorunu yaratabilir */
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-section p {
+        font-size: 1.1rem;
+    }
+
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: var(--spacing-lg);
+        right: var(--spacing-lg);
+    }
+
+    .logo-img {
+        max-width: 120px;
+    }
+
+    .logo-img-footer {
+        max-width: 100px;
+    }
+
+    .hero-section h3.fst-italic {
+        font-size: var(--font-size-lg);
+    }
+
+    .card-body {
+        padding: var(--spacing-md);
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: var(--spacing-lg);
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1.display-4 {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        padding: 80px 0 40px;
+        min-height: 40vh;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .logo-img {
+        max-width: 100px;
+    }
+
+    .logo-img-footer {
+        max-width: 80px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 1.1rem;
+    }
+
+    /* Mobil menü için özel stiller */
+    .navbar-toggler {
+        padding: var(--spacing-xs);
+        border: 2px solid var(--primary-color);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    /* Mobilde daha iyi dokunmatik hedef boyutları */
+    .nav-link,
+    .btn,
+    .whatsapp-button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Mobilde daha iyi okunabilirlik için metin aralıkları */
+    p, li {
+        line-height: 1.6;
+        margin-bottom: var(--spacing-md);
+    }
+
+    /* Mobilde daha iyi form elemanları */
+    input, 
+    textarea, 
+    select {
+        font-size: 16px; /* iOS'ta zoom sorununu önler */
+        padding: var(--spacing-sm);
+    }
+} 

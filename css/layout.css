@@ -1,0 +1,104 @@
+/* Navbar */
+.navbar {
+    padding: var(--spacing-sm) 0;
+    transition: var(--transition-base);
+    background-color: var(--light-blue-bg) !important;
+}
+
+.navbar .nav-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin: 0 var(--spacing-xs);
+    position: relative;
+    z-index: 2;
+    font-size: var(--font-size-lg);
+}
+
+.navbar .nav-link:hover {
+    color: var(--white-color) !important;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.navbar .nav-link.active {
+    color: var(--white-color) !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 170px 0 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    background-image: url('../images/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+                rgba(0,0,0,0.8) 0%, 
+                rgba(0,0,0,0.6) 30%, 
+                rgba(0,0,0,0.4) 60%, 
+                rgba(0,0,0,0.2) 100%);
+    z-index: 1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1,
+.hero-section p {
+    color: var(--white-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: var(--spacing-xl) 0;
+}
+
+footer a {
+    color: var(--white-color);
+    transition: var(--transition-base);
+}
+
+footer a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Section Backgrounds */
+#anasayfa, #hakkimizda, #urunler, #faydalar {
+    background-color: var(--white-color) !important;
+}
+
+#ozellikler {
+    background-color: var(--light-blue-bg) !important;
+}
+
+#ozellikler .card, 
+#referanslar .card, 
+#contact-form .card {
+    background-color: var(--white-color) !important;
+} 

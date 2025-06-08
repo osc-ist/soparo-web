@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap
+Sitemap: https://www.soparo.com.tr/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10 
